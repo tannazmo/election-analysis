@@ -19,11 +19,12 @@ We also counted total vote cast by each county and the percentage of the votes b
 
 >tech note: this task was done by creating a Dictionary with County Name as Key and another accumulator that would increment by 1 whenever we encountered a vote cast in that county, and finally ending up with the total number of the votes for that county as the Value for that Key.
 
->tech note 2: finding the percentage was easily done by dividing the number of votes for each county by total votes multiplied by 100
+>tech note 2: finding the percentage was easily done by dividing the number of votes for each county by total votes multiplied by 100 (code line 102)
 
-*We determined that the county that had the largest turnout was **Denver**.*
+### *Largest Turnout:*
+We determined that the county that had the largest turnout was **Denver**.*
 
->tech note: for this, we got help from a conditional statement while going through the rows to find the biggest number of votes among the counties.
+>tech note: for this, we got help from a conditional statement while going through the rows to find the biggest number of votes among the counties. (code line 113)
 
 ### *Candidate Votes:*
 Then we also were able to get the number of votes for each candidate and were able to calculate the percentage of the votes for each of the candidates: 
@@ -34,6 +35,7 @@ Then we also were able to get the number of votes for each candidate and were ab
 
 so, we were able to declare the winning candidate of this congressional election along with the vote count and the percentage of the votes received.
 
+### *Election Winner:*
 - **Winner:** *Diana DeGette*
 - **Winning Vote Count:** *272,892*
 - **Winning Percentage:** *73.8%*
